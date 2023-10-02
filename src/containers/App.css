@@ -1,0 +1,8 @@
+.login-panel {
+  background-color: #44b26f;
+  width: 1440px;
+  height: 1024;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}

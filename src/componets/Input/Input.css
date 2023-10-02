@@ -1,0 +1,11 @@
+.login-input {
+  width: 277px;
+  height: 56px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+input::placeholder {
+  color: #44b26f;
+  padding-left: 20px;
+  font-size: 18px;
+}
