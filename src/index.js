@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './containers/Login/login'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./containers/Login/Login";
 
-import App from './containers/App'
+import Login from "./containers/Login/Login";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    
+    <Login />
   </React.StrictMode>
 );
-
-
