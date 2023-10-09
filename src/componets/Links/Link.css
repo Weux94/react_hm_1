@@ -1,0 +1,22 @@
+.link-btn {
+  width: 179px;
+  height: 52px;
+  text-decoration: none;
+  display: flex;
+  background-color: white;
+
+  align-items: center;
+  justify-content: center;
+  margin: 40px 100px 0px 100px;
+}
+.text {
+  color: #05bc52;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.ico-header {
+  display: flex;
+  margin-right: 8px;
+ font-size: 30px;
+}

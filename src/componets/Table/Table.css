@@ -1,0 +1,23 @@
+.myTable {
+  display: flex;
+  margin: 0 auto;
+  background-color: #0ec86f;
+  align-items: center;
+  max-width: 872px;
+}
+
+.ico {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+.myRow {
+  display: flex;
+  justify-content: space-between;
+}
+td {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

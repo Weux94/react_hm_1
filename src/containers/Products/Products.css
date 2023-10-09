@@ -1,0 +1,32 @@
+body {
+    background-color: #44b26f;
+}
+table {
+    margin: 0 auto;
+    background-color: green;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+   
+}
+ tbody {
+    display: flex;
+    justify-content: center;
+    width: 872px;
+    flex-direction: column;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+th {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+.upDown {
+    display: flex;
+    align-items: center;
+}
