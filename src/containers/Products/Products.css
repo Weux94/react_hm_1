@@ -10,10 +10,23 @@ table {
     justify-content: space-between;
    
 }
-table tbody {
+ tbody {
     display: flex;
     justify-content: center;
     width: 872px;
     flex-direction: column;
 }
- 
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+th {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+.upDown {
+    display: flex;
+    align-items: center;
+}
