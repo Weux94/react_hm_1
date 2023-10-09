@@ -1,0 +1,19 @@
+body {
+    background-color: #44b26f;
+}
+table {
+    margin: 0 auto;
+    background-color: green;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+   
+}
+table tbody {
+    display: flex;
+    justify-content: center;
+    width: 872px;
+    flex-direction: column;
+}
+ 

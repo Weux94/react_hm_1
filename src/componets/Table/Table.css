@@ -1,0 +1,18 @@
+.myTable {
+  display: flex;
+  margin: 0 auto;
+  background-color: #0ec86f;
+  align-items: center;
+  max-width: 872px;
+}
+th {
+  display: flex;
+  width: 15%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.ico {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
