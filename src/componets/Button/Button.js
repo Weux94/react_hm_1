@@ -1,9 +1,9 @@
 import "./Button.css";
-const Button = () => {
+const Button = (props) => {
   return (
-    <div>
-      <button className="login-btn"> Login</button>
-    </div>
+    <button className="login-btn" onClick={props.onClick}>
+      Login
+    </button>
   );
 };
 

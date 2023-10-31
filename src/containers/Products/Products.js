@@ -5,7 +5,6 @@ import Title from "../../componets/Title/Title";
 import { BsPerson } from "react-icons/bs";
 import { BsPlus } from "react-icons/bs";
 
-
 import Table from "../../componets/Table/Table";
 
 const productsData = [
@@ -35,8 +34,6 @@ const productsData = [
   },
 ];
 
-
-
 const Products = () => {
   return (
     <div className="body-bcg">
@@ -45,11 +42,8 @@ const Products = () => {
         <Link text={"Preview"} ico={<BsPerson />} />
         <Link text={"Add product"} ico={<BsPlus />} />
       </div>
-      <Title  />
+      <Title />
       <Table data={productsData} />
-     
-      
-     
     </div>
   );
 };
